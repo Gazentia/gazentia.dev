@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Tip Calculator App",
+    "description": "Split-the-bill calculator with live total updates and input validation.",
+    "techs": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "live": "#",
+    "source": "#"
+  },
+  {
+    "title": "REST Countries Explorer",
+    "description": "Browse and filter countries by region with detail pages and theme toggle.",
+    "techs": [
+      "React",
+      "REST API",
+      "Sass"
+    ],
+    "live": "#",
+    "source": "#"
+  },
+  {
+    "title": "Interactive Rating Component",
+    "description": "Accessible rating widget with thank-you state and keyboard support.",
+    "techs": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "live": "#",
+    "source": "#"
+  },
+  {
+    "title": "Newsletter Sign-up Form",
+    "description": "Form with client-side email validation and a success confirmation view.",
+    "techs": [
+      "React",
+      "TypeScript"
+    ],
+    "live": "#",
+    "source": "#"
+  }
+]
