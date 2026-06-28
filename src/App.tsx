@@ -8,6 +8,7 @@ import { FeatureProject } from "./components/FeatureProject"
 import { ProjectGrid } from "./components/ProjectGrid"
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
+import { Reveal } from "./components/Reveal"
 
 const App = () => {
   const { i18n } = useTranslation()
@@ -19,10 +20,10 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
-      <About />
-      <FeatureProject />
-      <ProjectGrid />
-      <Contact />
+      <Reveal><About /></Reveal>
+      <Reveal><FeatureProject /></Reveal>
+      <Reveal><ProjectGrid /></Reveal>
+      <Reveal><Contact /></Reveal>
       <Footer />
     </main>
   )
