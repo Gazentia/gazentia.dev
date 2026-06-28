@@ -1,6 +1,9 @@
+import { useTranslation } from 'react-i18next'
 import Logo from '../assets/logo.svg?react'
 
 export const Hero = () => {
+  const { t } = useTranslation()
+
   return <section className="min-h-screen flex flex-col items-center justify-center pt-14 gap-6 text-center px-6">
     {/* Avatar */}
     <Logo className="w-24 h-24 text-accent-glow" />
@@ -8,9 +11,9 @@ export const Hero = () => {
     {/* Name + subtitle */}
     <div className="flex flex-col gap-2">
       <h1 className="text-5xl font-semibold text-text-primary font-sans">
-        Hi, I'm Wat
+        {t('hero.greeting')}
       </h1>
-      <p className="text-lg text-text-secondary">Web Developer</p>
+      <p className="text-lg text-text-secondary">{t('hero.subtitle')}</p>
     </div>
 
     {/* Social links placeholder */}

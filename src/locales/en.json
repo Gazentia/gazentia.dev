@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Wat",
+    "subtitle": "Web Developer"
+  },
+  "about": {
+    "label": "ABOUT",
+    "bio": "Web Developer with 3+ years of experience building web applications using React.js and Node.js. Well-versed in frontend development with Material UI, backend management via Strapi, and supporting development team operations including technical planning and code reviews to uphold project standards."
+  },
+  "featured": {
+    "label": "FEATURED",
+    "comingSoon": "Coming soon"
+  },
+  "projects": {
+    "label": "PROJECTS",
+    "comingSoon": "Coming soon"
+  },
+  "contact": {
+    "label": "CONTACT",
+    "heading": "Open to discussing work, sharing ideas, or contributing to open-source projects to learn and grow together.",
+    "cta": "Send a message"
+  },
+  "footer": {
+    "builtWith": "Built with React"
+  }
+}

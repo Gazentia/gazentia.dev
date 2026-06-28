@@ -1,3 +1,6 @@
+import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
+
 import { Navbar } from "./components/Navbar"
 import { Hero } from "./components/Hero"
 import { About } from "./components/About"
@@ -7,6 +10,11 @@ import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
 const App = () => {
+  const { i18n } = useTranslation()
+  useEffect(() => {
+    document.documentElement.lang = i18n.language
+  }, [i18n.language])
+
   return (
     <main>
       <Navbar />

@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "about": "เกี่ยวกับฉัน",
+    "projects": "ผลงาน",
+    "contact": "ติดต่อ"
+  },
+  "hero": {
+    "greeting": "สวัสดีครับผมวัตถ์ (Wat)",
+    "subtitle": "Web Developer"
+  },
+  "about": {
+    "label": "เกี่ยวกับฉัน",
+    "bio": "Web Developer ผู้มีประสบการณ์กว่า 3 ปีในการพัฒนา Web Application ด้วย React.js และ Node.js มีความเชี่ยวชาญและคุ้นเคยกับการพัฒนา Frontend ด้วย Material UI, การจัดการ Backend ผ่าน Strapi ตลอดจนการสนับสนุนการบริหารทีมพัฒนา ร่วมวางแผนด้าน Technical และตรวจทาน Code (Code Review) เพื่อรักษามาตรฐานของโปรเจกต์"
+  },
+  "featured": {
+    "label": "ผลงานเด่น",
+    "comingSoon": "เร็วๆ นี้"
+  },
+  "projects": {
+    "label": "ผลงานทั้งหมด",
+    "comingSoon": "เร็วๆ นี้"
+  },
+  "contact": {
+    "label": "ติดต่อ",
+    "heading": "ยินดีร่วมพูดคุยเรื่องงาน แลกเปลี่ยนไอเดีย หรือโปรเจกต์ Open Source เพื่อเรียนรู้ไปด้วยกันครับ",
+    "cta": "ส่งข้อความ"
+  },
+  "footer": {
+    "builtWith": "พัฒนาด้วย React"
+  }
+}
