@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 export const Contact = () => {
   const { t } = useTranslation()
 
-  return <section id="contact" className="max-w-2xl mx-auto px-6 py-20 flex flex-col items-center text-center gap-6">
+  return <section id="contact" className="max-w-2xl mx-auto px-6 py-14 md:py-20 flex flex-col items-center text-center gap-6">
     <p className="text-xs font-medium tracking-[2px] text-accent">{t('contact.label')}</p>
 
     <h2 className="text-3xl font-semibold text-text-primary">{t('contact.heading')}</h2>
