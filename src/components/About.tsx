@@ -5,7 +5,7 @@ const TAGS = ['JavaScript', 'TypeScript', 'React.js', 'React Admin', 'Material U
 export const About = () => {
   const { t } = useTranslation()
 
-  return <section id="about" className="max-w-4xl mx-auto px-6 py-20">
+  return <section id="about" className="max-w-4xl mx-auto px-6 py-14 md:py-20">
     <p className="text-xs font-medium tracking-[2px] text-accent mb-8">
       {t('about.label')}
     </p>

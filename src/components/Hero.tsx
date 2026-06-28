@@ -10,14 +10,14 @@ export const Hero = () => {
 
     {/* Name + subtitle */}
     <div className="flex flex-col gap-2">
-      <h1 className="text-5xl font-semibold text-text-primary font-sans">
+      <h1 className="text-4xl md:text-5xl font-semibold text-text-primary font-sans">
         {t('hero.greeting')}
       </h1>
       <p className="text-lg text-text-secondary">{t('hero.subtitle')}</p>
     </div>
 
     {/* Social links placeholder */}
-    <div className="flex gap-4">
+    <div className="flex flex-wrap justify-center gap-4">
       <a href="#" className="px-4 py-2 border border-border rounded-lg text-text-muted text-sm hover:border-border-hover hover:text-text-secondary transition-all duration-300">GitHub</a>
       <a href="#" className="px-4 py-2 border border-border rounded-lg text-text-muted text-sm hover:border-border-hover hover:text-text-secondary transition-all duration-300">LinkedIn</a>
       <a href="#" className="px-4 py-2 border border-border rounded-lg text-text-muted text-sm hover:border-border-hover hover:text-text-secondary transition-all duration-300">Email</a>
